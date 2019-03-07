@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-tempworks",
-  "version": "0.0.0",
+  "name": "eslint-plugin-ekimlinger",
+  "version": "0.0.1",
   "description": "remember-use-extensible",
   "keywords": [
     "eslint",
@@ -12,6 +12,12 @@
   "scripts": {
     "test": "mocha tests --recursive"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ekimlinger/eslint-plugin-ekimlinger"
+  },
+  "homepage": "https://github.com/ekimlinger/eslint-plugin-ekimlinger",
+  "bugs": "https://github.com/ekimlinger/eslint-plugin-ekimlinger/issues",
   "dependencies": {
     "requireindex": "~1.1.0"
   },
@@ -22,5 +28,11 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "ekimlinger"
+  ],
+  "license": "MIT"
 }
