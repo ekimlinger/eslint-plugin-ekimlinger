@@ -8,12 +8,18 @@ You'll first need to install [ESLint](http://eslint.org):
 
 ```
 $ npm i eslint --save-dev
+
+--For Yarn--
+$ yarn add eslint --dev
 ```
 
 Next, install `eslint-plugin-ekimlinger`:
 
 ```
 $ npm install eslint-plugin-ekimlinger --save-dev
+
+--For Yarn--
+$ yarn add eslint-plugin-ekimlinger --dev
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-ekimlinger` globally.
