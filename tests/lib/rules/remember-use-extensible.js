@@ -16,13 +16,17 @@ ruleTester.run("remember-use-extensible.js", rule, {
       code: "const someObject = {}; const { something } = someObject;",
       errors: [
         { message: "'use extensible' not included at the top of the file." }
-      ]
+      ],
+      output:
+        "'use extensible';\nconst someObject = {}; const { something } = someObject;"
     },
     {
       code: "const someArray = []; const [ something ] = someArray;",
       errors: [
         { message: "'use extensible' not included at the top of the file." }
-      ]
+      ],
+      output:
+        "'use extensible';\nconst someArray = []; const [ something ] = someArray;"
     }
   ]
 });
