@@ -1,0 +1,7 @@
+{
+  "Some intlString to format": {
+    "en-us": "Some intlString to format in english",
+    "es-us": "Some intlString to format in spanish",
+    "en-gb": "Some intlString to format in british"
+  }
+}
